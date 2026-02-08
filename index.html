@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>For Jeetu ❤️</title>
+
+<style>
+body{
+background:#ffe6f0;
+font-family:Arial;
+text-align:center;
+}
+
+.card{
+margin-top:60px;
+}
+
+img{
+border-radius:20px;
+}
+
+button{
+padding:12px 25px;
+margin:10px;
+font-size:18px;
+border:none;
+border-radius:25px;
+background:#ff4d88;
+color:white;
+cursor:pointer;
+}
+
+#result{
+font-size:24px;
+margin-top:20px;
+color:#ff0066;
+font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h2>Hey Jeetu, I made something for you 💕</h2>
+
+<img src="jeetu.jpg" width="220"><br><br>
+
+<img src="cute.gif" width="200"><br><br>
+
+<h3>Do you wanna see??</h3>
+
+<button onclick="yes()">YES</button>
+<button onclick="no()">NO</button>
+
+<p id="result"></p>
+
+</div>
+
+<script>
+function yes(){
+document.getElementById("result").innerHTML="I Love You Jeetu ❤️";
+}
+function no(){
+document.getElementById("result").innerHTML="Try again 😜";
+}
+</script>
+
+</body>
+</html>
